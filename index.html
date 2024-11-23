@@ -3,14 +3,25 @@
     <body>
 
         <h1>Ninad Gandhi</h1>
+        <hr>
         <p>
-            Hello. Welcome to my webpage. I am Ninad, post graduate research student at 
-            CMInDS, Indian Institute of Technology Bombay (IITB as most of us would call it).
+            Hello! Welcome to my webpage. I am Ninad Gandhi, post graduate research student at the Center for Machine Intelligence and Data Science (CMInDS), Indian Institute of Technology Bombay (IITB). My major is in Machine Learning, and my research focus area is efficient and private training of machine learning models. I am also interested in exploring adversarial robustness.
         </p>
+
+        <h2>Research</h2>
         <p>
-            I am currently working with Prof. Abir De, CSE, IIT Bombay on Machine Learning. 
-            Please find my <a href="CV_Ninad.pdf">CV</a> here.
-	</p>
+            My research interests include:
+            <ul>
+                <li><b>Efficient Machine Learning:</b> There are multitude of applications where training the model on the <i>whole dataset</i> for <i>n</i> epochs is a waste of compute. How to train ML models efficiently such that the training time becomes a small fraction of training on the whole data all the while accuracy takes a minimal hit.</li>
+                <li><b>Private Machine Learning:</b> Suppose you train a language model on some private data. Then you prompt it "Mr. &ltX&gt" and press enter (where you fill &ltX&gt with the name of the person whose information you want). Since language models are known to mug up everything in the data and regurgitate it, when the model completes the sentence like ""Mr. &ltX&gt lives in Mumbai. ..." It is likely present in the data. How to avoid this kind of behavior (in a probabilistic sense)?</li>
+                <li><b>Adversarial Robustness:</b> It is often the case that after a training run, the model finds a spurious correlation between the data and the labels. When the input is slightly perturbed, such that the change is imperceptible to a human, and yet, the predictions of the model completely change. The question is, how to train a model robustly, where robustness for classification is roughly defined as the consistency of model predictions through small perturbations to the input.</li>
+            </ul>
+        </p>
+
+        
+        <p>
+            I am currently an MS by research student working with Prof. Abir De, assistant professor at CSE department, IIT Bombay and associated faculty at CMInDS. Please find my <a href="CV_Ninad.pdf">CV</a> here.
+        </p>
 
 
     </body>
